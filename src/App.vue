@@ -49,9 +49,9 @@ export default{
       if(this.description.includes('Sunny')){
         return 'sunny';
       }else if(this.description.includes('Overcast')){
-        return 'overrcast';
+        return 'overcast';
       }else if(this.description.includes('Partly cloudy')){
-        return 'Partly cloudy';
+        return 'partly-cloudy';
       }else{
         return '';
       }
